@@ -13,14 +13,26 @@
     </div>
     <div class="settings">
       <div class="form">
-        <p>Grid Size:</p>
+        <label for="size">Grid Size:</label>
+        <input
+          type="text"
+          id="user-input"
+          name="user-input"
+          placeholder="#"
+          size="3"
+          maxlength="3"
+        />
         <p class="copy-input"></p>
-        <button>Submit</button>
+        <button id="submit">Submit</button>
       </div>
-      <p class="promt"></p>
+      <p class="prompt"></p>
       <div class="buttons">
-        <!-- BUTTONS HERE -->
-        <button class="clear-btn">Clear</button>
+        <button class="black">Black</button>
+        <button class="red">Red</button>
+        <button class="green">Green</button>
+        <button class="blue">Blue</button>
+        <!-- Rainbow button?? -->
+        <button class="clear">Clear</button>
       </div>
       <div class="grid-canvas">
         <div class="container"></div>

@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #283618;
+  background-color: #414f30;
   height: 100vh;
   width: 100%;
   margin: 0;
@@ -58,10 +58,15 @@ h1 {
   align-items: center;
 }
 
-p {
+label {
   font-size: 18px;
   color: #fefae0;
   margin: 0;
+}
+
+input {
+  margin-left: 2px;
+  margin-right: 4px;
 }
 
 .prompt {
@@ -88,4 +93,7 @@ button {
   width: 500px;
   border: 10px solid #606c38;
   border-radius: 12px;
+  background-color: #fefae0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

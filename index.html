@@ -12,27 +12,10 @@
       <h1>ETCH-A-SKETCH</h1>
     </div>
     <div class="settings">
-      <div class="form">
-        <label for="size">Grid Size:</label>
-        <input
-          type="text"
-          id="user-input"
-          name="user-input"
-          placeholder="#"
-          size="3"
-          maxlength="3"
-        />
-        <p class="copy-input"></p>
-        <button id="submit">Submit</button>
-      </div>
+      <button id="create">Create Grid</button>
       <p class="prompt"></p>
-      <div class="buttons">
-        <button class="black">Black</button>
-        <button class="red">Red</button>
-        <button class="green">Green</button>
-        <button class="blue">Blue</button>
-        <!-- Rainbow button?? -->
-        <button class="clear">Clear</button>
+      <div id="buttons">
+        <button id="reset-btn">Reset</button>
       </div>
       <div class="grid-canvas">
         <div class="container"></div>
